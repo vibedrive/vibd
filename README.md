@@ -1,4 +1,19 @@
-# VibeDB
+<h1 align="center">
+  <br>
+  <a href="https://github.com/vibedrive/vibedb">
+    <div style="display: block" alt="VibeDB" width="200">
+  </a>
+  <br>
+  VibeDB
+</h1>
+
+<h4 align="center">
+  <span> </span>
+  <br>
+  <br>
+</h4>
+
+
 
 kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) portable accross node.js and [browsers](https://github.com/browserify/browserify)
 
@@ -106,13 +121,13 @@ represents a storage medium where a MediaFile can be saved.
 ## prior art
 
 - [beets](http://beets.readthedocs.io/)
+- [hyperamp](https://github.com/hypermodules/hyperamp)
 
 
 ## see also
 
 - [ipfs](https://github.com/ipfs/js-ipfs)
 - [omi api spec](https://github.com/omi/api-specs)
-- [hyperamp](https://github.com/hypermodules/hyperamp)
 
 
 ## License
