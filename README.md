@@ -107,14 +107,14 @@ represents a storage medium where a MediaFile can be saved.
 
 - [beets](http://beets.readthedocs.io/)
 
+
 ## see also
 
-- [hyperdb]()
-- [ipfs]()
-- [omi api spec]()
-- [hyperamp]()
+- [ipfs](https://github.com/ipfs/js-ipfs)
+- [omi api spec](https://github.com/omi/api-specs)
+- [hyperamp](https://github.com/hypermodules/hyperamp)
 
 
 ## License
 
-[LICENSE](https://github.com/vibedrive/vibedb/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/vibedrive/vibedb/blob/master/LICENSE)
