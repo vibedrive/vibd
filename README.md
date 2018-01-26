@@ -1,13 +1,24 @@
-# vibedb
+# VibeDB
 
-manage your music library anywhere.
+kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) portable accross node.js and [browsers](https://github.com/browserify/browserify)
 
+## table of contents
+
+- [install](#install)
+- [usage](#usage)
+- [api](#api)
+- [prior art](#prior-art)
+- [see also](#see-also)
 
 ## install 
 
 with [npm](https://www.npmjs.com/)
 
-`npm install -g`
+globally: 
+`npm install -g vibedb`
+
+as a module: 
+`npm install vibedb --save`
 
 
 ## usage
