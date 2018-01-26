@@ -103,7 +103,6 @@ returns the path in the library directory on a given storage designated for the 
 represents a storage medium where a MediaFile can be saved. 
 
 
-
 ## prior art
 
 - [beets](http://beets.readthedocs.io/)
@@ -114,3 +113,8 @@ represents a storage medium where a MediaFile can be saved.
 - [ipfs]()
 - [omi api spec]()
 - [hyperamp]()
+
+
+## License
+
+[LICENSE](https://github.com/vibedrive/vibedb/blob/master/LICENSE)
