@@ -107,10 +107,12 @@ returns an item instance.
 #### item.write(mediaFile)
 
 
-### Class: MediaFile
-represents a multimedia file and provides access to its metadata.
+### Class: AudioFile
+represents an audio file and provides access to its data.
 
-#### item.destination(storage)
+#### audioFile.relativePath(library)
+
+#### audioFile.absolutePath(storage)
 returns the path in the library directory on a given storage designated for the item.
 
 
