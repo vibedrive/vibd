@@ -1,5 +1,5 @@
 {
-  "name": "vibedb",
+  "name": "vibd",
   "version": "0.0.1",
   "description": "music library system on top of hyperdb",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vibedrive/vibedb.git"
+    "url": "git+https://github.com/vibedrive/vibd.git"
   },
   "keywords": [
     "music"
@@ -16,7 +16,7 @@
   "author": "kareniel",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/vibedrive/vibedb/issues"
+    "url": "https://github.com/vibedrive/vibd/issues"
   },
-  "homepage": "https://github.com/vibedrive/vibedb#readme"
+  "homepage": "https://github.com/vibedrive/vibd#readme"
 }
