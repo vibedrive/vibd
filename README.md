@@ -1,10 +1,10 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/vibedrive/vibedb">
-    <div style="display: block" alt="VibeDB" width="200">
+    <div style="display: block" alt="vibd" width="200">
   </a>
   <br>
-  VibeDB
+  vibd
 </h1>
 
 <h4 align="center">
@@ -30,16 +30,16 @@ kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli
 with [npm](https://www.npmjs.com/)
 
 globally: 
-`npm install -g vibedb`
+`npm install -g vibd`
 
 as a module: 
-`npm install vibedb --save`
+`npm install vibd --save`
 
 
 ## usage
 
 ```
-Usage: vibedb 
+Usage: vibd 
 
 commands:
 
@@ -58,7 +58,7 @@ commands:
 ## api
 
 ```js
-var Library = require('vibedb')
+var Library = require('vibd')
 ```
 
 ### Class: Library
@@ -134,4 +134,4 @@ represents a storage medium where a MediaFile can be saved.
 
 ## License
 
-[Apache License 2.0](https://github.com/vibedrive/vibedb/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/vibedrive/vibd/blob/master/LICENSE)
