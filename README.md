@@ -1,13 +1,39 @@
-# vibedb
+<h1 align="center">
+  <br>
+  <a href="https://github.com/vibedrive/vibedb">
+    <div style="display: block" alt="VibeDB" width="200">
+  </a>
+  <br>
+  VibeDB
+</h1>
 
-manage your music library anywhere.
+<h4 align="center">
+  <span> </span>
+  <br>
+  <br>
+</h4>
 
+
+
+kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and portable accross node.js and [browsers](https://github.com/browserify/browserify)
+
+## table of contents
+
+- [install](#install)
+- [usage](#usage)
+- [api](#api)
+- [prior art](#prior-art)
+- [see also](#see-also)
 
 ## install 
 
 with [npm](https://www.npmjs.com/)
 
-`npm install -g`
+globally: 
+`npm install -g vibedb`
+
+as a module: 
+`npm install vibedb --save`
 
 
 ## usage
@@ -81,10 +107,12 @@ returns an item instance.
 #### item.write(mediaFile)
 
 
-### Class: MediaFile
-represents a multimedia file and provides access to its metadata.
+### Class: AudioFile
+represents an audio file and provides access to its data.
 
-#### item.destination(storage)
+#### audioFile.relativePath(library)
+
+#### audioFile.absolutePath(storage)
 returns the path in the library directory on a given storage designated for the item.
 
 
@@ -92,14 +120,18 @@ returns the path in the library directory on a given storage designated for the 
 represents a storage medium where a MediaFile can be saved. 
 
 
-
 ## prior art
 
 - [beets](http://beets.readthedocs.io/)
+- [hyperamp](https://github.com/hypermodules/hyperamp)
+
 
 ## see also
 
-- [hyperdb]()
-- [ipfs]()
-- [omi api spec]()
-- [hyperamp]()
+- [ipfs](https://github.com/ipfs/js-ipfs)
+- [omi api spec](https://github.com/omi/api-specs)
+
+
+## License
+
+[Apache License 2.0](https://github.com/vibedrive/vibedb/blob/master/LICENSE)
