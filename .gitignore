@@ -58,3 +58,4 @@ typings/
 .env
 
 vibd.db
+package-lock.json
