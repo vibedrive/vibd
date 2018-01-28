@@ -1,6 +1,6 @@
 {
   "name": "vibd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "music library system on top of hyperdb",
   "main": "index.js",
   "scripts": {
