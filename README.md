@@ -38,6 +38,8 @@ as a module:
 
 ## usage
 
+*cli not implemented yet
+
 ```
 Usage: vibd 
 
@@ -58,7 +60,10 @@ commands:
 ## api
 
 ```js
+var os = require('os')
+var path = require('path')
 var Library = require('vibd')
+var vibd = Library(path.join(os.homedir(), 'vibd'))
 ```
 
 ### Class: Library
@@ -102,7 +107,7 @@ represents songs
 #### Item.from(buffer)
 returns an item instance.
 
-#### item.read(mediaFile)`
+#### item.read(mediaFile)
 
 #### item.write(mediaFile)
 
