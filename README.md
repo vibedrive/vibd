@@ -45,6 +45,11 @@ commands:
 
   import
   list
+```
+
+commands yet to be implemented:
+
+```
   remove
   modify
   move

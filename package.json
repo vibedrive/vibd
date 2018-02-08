@@ -3,6 +3,7 @@
   "version": "0.0.3",
   "description": "music library system on top of hyperdb",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "standard --fix && node test | tap-spec"
   },
@@ -22,6 +23,7 @@
   "dependencies": {
     "concat-stream": "^1.6.0",
     "hyperdb": "^2.0.0",
+    "minimist": "^1.2.0",
     "pump": "^2.0.1",
     "through2": "^2.0.3"
   },
