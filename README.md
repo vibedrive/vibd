@@ -15,7 +15,9 @@
 
 
 
-kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and portable accross node.js and [browsers](https://github.com/browserify/browserify)
+kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and portable across node.js and [browsers](https://github.com/browserify/browserify).
+
+track progress towards v1 [here](https://github.com/vibedrive/vibd/issues/1)
 
 ## table of contents
 
@@ -37,6 +39,8 @@ as a module:
 
 
 ## usage
+
+*cli not implemented yet
 
 ```
 Usage: vibd 
@@ -63,7 +67,10 @@ commands yet to be implemented:
 ## api
 
 ```js
+var os = require('os')
+var path = require('path')
 var Library = require('vibd')
+var vibd = Library(path.join(os.homedir(), 'vibd'))
 ```
 
 ### Class: Library
@@ -107,7 +114,7 @@ represents songs
 #### Item.from(buffer)
 returns an item instance.
 
-#### item.read(mediaFile)`
+#### item.read(mediaFile)
 
 #### item.write(mediaFile)
 
