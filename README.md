@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/vibedrive/vibedb">
-    <img style="display: block" alt="vibd" width="200" src="vibd-hexagon.png">
+    <img style="display: block" alt="vibd" width="200" src="vibd-hexagon.svg">
   </a>
   <br>
   
