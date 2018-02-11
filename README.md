@@ -4,7 +4,7 @@
     <img style="display: block" alt="vibd" width="200" src="vibd-hexagon.png">
   </a>
   <br>
-  vibd
+  
 </h1>
 
 <h4 align="center">
