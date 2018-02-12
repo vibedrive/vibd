@@ -10,10 +10,7 @@
 <h4 align="center">
   <span> </span>
   <br>
-  <br>
 </h4>
-
-
 
 Kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and usable in both node.js and [the browser](https://github.com/browserify/browserify).
 
