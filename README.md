@@ -11,7 +11,7 @@ Kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli
 
 You can track progress towards v1 [here](https://github.com/vibedrive/vibd/issues/1).
 
-See also:
+**See also:**
   - [vibd-traktor](https://github.com/vibedrive/vibd-traktor) - a vibd plugin
 
 ## table of contents
