@@ -4,13 +4,8 @@
     <img style="display: block" alt="vibd" width="200" src="vibd-hexagon.svg">
   </a>
   <br>
-  
 </h1>
 
-<h4 align="center">
-  <span> </span>
-  <br>
-</h4>
 
 Kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and usable in both node.js and [the browser](https://github.com/browserify/browserify).
 
