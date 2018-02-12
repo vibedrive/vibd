@@ -15,9 +15,12 @@
 
 
 
-kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and portable across node.js and [browsers](https://github.com/browserify/browserify).
+Kind of like [the beets cli](http://beets.readthedocs.io/en/v1.4.6/reference/cli.html) but [distributed](https://github.com/mafintosh/hyperdb) and usable in both node.js and [the browser](https://github.com/browserify/browserify).
 
-track progress towards v1 [here](https://github.com/vibedrive/vibd/issues/1)
+You can track progress towards v1 [here](https://github.com/vibedrive/vibd/issues/1).
+
+See also:
+  - [vibd-traktor](https://github.com/vibedrive/vibd-traktor) - a vibd plugin
 
 ## table of contents
 
