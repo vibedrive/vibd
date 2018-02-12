@@ -45,26 +45,26 @@ var Library = require('vibd')
 var vibd = Library(path.join(os.homedir(), 'vibd'))
 ```
 
-#### use
+### use
 
 register plugins
 
-cli: `vibd use <middleware>`
-js: `vibd.use(middleware)`
+- cli: `vibd use <middleware>`
+- js: `vibd.use(middleware)`
 
-#### import
+### import
 
 import a collection. add support for collection type by middleware.
 
-cli: `vibd import (--format=<format>) [--payload=<payload>] `
-js: `vibd.import(opts) // opts = { source: { format, payload } }` 
+- cli: `vibd import (--format=<format>) [--payload=<payload>] `
+- js: `vibd.import(opts) // opts = { source: { format, payload } }` 
 
-#### list
+### list
 
 print items in library
 
-cli: `vibd list [<query>] [--sort=<sort>]`
-js: `vibd.items(query, sort, callback)`
+- cli: `vibd list [<query>] [--sort=<sort>]`
+- js: `vibd.items(query, sort, callback)`
 
 
 ## install 
